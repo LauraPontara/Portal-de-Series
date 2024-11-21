@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Laura Pontara">
+    <title>Mundo Séries by Laura</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <nav class="navbar navbarExplorador bg-body-tertiar" style="background-color: #36225a;">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo exploradorLogo" src="assets/images/Logo.jpg" alt="Mundo Séries" width=100px class="d-inline-block align-text-top">
+            </a>
+            <form class="d-flex search" role="search">
+                <input class="form-control me-2" type="search" placeholder="Qual série você busca?" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+    </nav>
+    <!-- Cabeçalho -->
+
+    <!-- Conteúdo Principal -->
+    <div class="container-fluid">
+        <div class="row">
+            <aside class="col-12 col-sm-12 col-md-3 col-lg-3">
+                <h2>Categorias:</h2>
+                <ul id="with_genres" class="multi_select text" name="with_genres[]">
+                    <li data-value="10759"><a class="no_click" href="/discover/tv?with_genres=10759" previewlistener="true">Ação e Aventura</a></li>
+                    <li data-value="16"><a class="no_click" href="/discover/tv?with_genres=16" previewlistener="true">Animação</a></li>
+                    <li data-value="35"><a class="no_click" href="/discover/tv?with_genres=35" previewlistener="true">Comédia</a></li>
+                    <li data-value="80"><a class="no_click" href="/discover/tv?with_genres=80" previewlistener="true">Crime</a></li>
+                    <li data-value="99"><a class="no_click" href="/discover/tv?with_genres=99" previewlistener="true">Documentário</a></li>
+                    <li data-value="18"><a class="no_click" href="/discover/tv?with_genres=18" previewlistener="true">Drama</a></li>
+                    <li data-value="10751"><a class="no_click" href="/discover/tv?with_genres=10751" previewlistener="true">Família</a></li>
+                    <li data-value="37"><a class="no_click" href="/discover/tv?with_genres=37" previewlistener="true">Faroeste</a></li>
+                    <li data-value="10762"><a class="no_click" href="/discover/tv?with_genres=10762" previewlistener="true">Infantil</a></li>
+                    <li data-value="9648"><a class="no_click" href="/discover/tv?with_genres=9648" previewlistener="true">Mistério</a></li>
+                    <li data-value="10764"><a class="no_click" href="/discover/tv?with_genres=10764" previewlistener="true">Reality</a></li>
+                    <li data-value="10765"><a class="no_click" href="/discover/tv?with_genres=10765" previewlistener="true">Ficção Científica e Fantasia</a></li>
+                    <li data-value="10768"><a class="no_click" href="/discover/tv?with_genres=10768" previewlistener="true">Guerra e Política</a></li>
+                </ul>
+            </aside>
+
+            <main class="col-12 col-sm-12 col-md-9 col-lg-9">
+                <div class="container-fluid">
+                    <div class="row row-cols-1 .col-sm-1 row-cols-md-2 row-col-lg-2 row-cols-xl-3 row-cols-xxl-4 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <a href="serie.html">
+                                    <img src="assets/images/card/7.jpg" class="card-img-top" alt="Desventuras em Série">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Desventuras em Série</h5>
+                                        <p class="card-text">Três órfãos enfrentam o vilão Conde Olaf em uma série de
+                                            desventuras
+                                            enquanto tentam descobrir segredos familiares.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <a href="serie.html">
+                                    <img src="assets/images/card/10.jpg" class="card-img-top" alt="The Good Doctor">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Good Doctor</h5>
+                                        <p class="card-text">Um médico autista com síndrome de Savant enfrenta desafios
+                                            pessoais
+                                            e
+                                            profissionais em um hospital de prestígio.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <a href="serie.html">
+                                    <img src="assets/images/card/3.jpg" class="card-img-top" alt="Anne with an E">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Anne with an "E"</h5>
+                                        <p class="card-text">Uma jovem órfã com uma imaginação vívida transforma a vida
+                                            de
+                                            uma
+                                            pequena comunidade com sua determinação e coragem.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <a href="serie.html">
+                                    <img src="assets/images/card/5.jpg" class="card-img-top" alt="Young Sheldon">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Young Sheldon</h5>
+                                        <p class="card-text">A infância de Sheldon Cooper, um prodígio da física, é
+                                            retratada
+                                            enquanto ele navega a vida familiar e escolar no Texas.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="serie.html">
+                                    <img src="assets/images/card/1.jpg" class="card-img-top" alt="Dr. House">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dr. House</h5>
+                                        <p class="card-text">Um médico brilhante e antiético resolve casos médicos
+                                            complexos
+                                            usando
+                                            métodos pouco convencionais.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="serie.html">
+                                    <img src="assets/images/card/2.jpg" class="card-img-top"
+                                        alt="Eu, a Patroa e as Crianças">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Eu, a Patroa e as Crianças</h5>
+                                        <p class="card-text">Um pai tenta lidar com sua família excêntrica, equilibrando
+                                            comédia
+                                            e
+                                            desafios familiares.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="serie.html">
+                                    <img src="assets/images/card/4.jpg" class="card-img-top" alt="The Big Bang Theory">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Big Bang Theory</h5>
+                                        <p class="card-text">Um grupo de cientistas nerds lida com suas vidas sociais,
+                                            trazendo
+                                            humor às interações cotidianas.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="serie.html">
+                                    <img src="assets/images/card/9.jpg" class="card-img-top"
+                                        alt="Avatar: O Último Mestre do Ar">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Avatar: O Último Mestre do Ar</h5>
+                                        <p class="card-text">Aang, o último dobrador de ar, deve dominar os quatro
+                                            elementos
+                                            para
+                                            restaurar a paz no mundo.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="serie.html">
+                                    <img src="assets/images/card/6.jpg" class="card-img-top" alt="Friends">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Friends</h5>
+                                        <p class="card-text">Seis amigos vivem altos e baixos em Nova York, equilibrando
+                                            relacionamentos, trabalho e momentos cômicos.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <a href="serie.html">
+                                    <img src="assets/images/card/8.jpg" class="card-img-top" alt="Dois Homens e Meio">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dois Homens e Meio</h5>
+                                        <p class="card-text">A vida de dois irmãos e um sobrinho é repleta de humor em
+                                            meio
+                                            a
+                                            conflitos familiares e romances.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </main>
+        </div>
+    </div>
+    <!-- Conteúdo Principal -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Rodapé -->
+    <footer>
+        Copyright 2024 | Todos os direitos reservados MundoSériesbyLaura.com
+    </footer>
+    <!-- Rodapé -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Laura Pontara">
+    <title>Mundo Séries by Laura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="assets/images/Logo.jpg" alt="Mundo Séries" width=100px
+                class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler btn btn-secondary" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active " aria-current="page" href="explorer.html">
+                        <h4 class="explorador">Explorador</h4>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Cabeçalho -->
+
+<!-- Conteúdo Principal -->
+<div class="container">
+
+    <!-- Primeira Linha do grid -->
+    <div class="row">
+        <main class="carrossel">
+            <div class="col-12 titulo">
+                <h2>Séries Populares</h2>
+            </div>
+            <!-- Carrossel -->
+            <div class="col-12">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/Carrossel/friends.jpg" class="d-block w-100" alt="Friends">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Friends</h5>
+                                <p>Seis jovens são unidos por laços familiares, românticos e, principalmente, de
+                                    amizade,
+                                    enquanto tentam vingar em Nova York. </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/Carrossel/house.jpg" class="d-block w-100" alt="Dr. House">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Dr. House</h5>
+                                <p>Um médico mal-humorado que detesta lidar com pacientes, mas é um gênio no
+                                    tratamento
+                                    de
+                                    doenças misteriosas.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/Carrossel/anne.jpg" class="d-block w-100" alt="Anne with an E">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Anne with an "E"</h5>
+                                <p>Uma órfã destemida e determinada encontra um lar improvável junto de uma
+                                    solteirona e
+                                    do
+                                    seu
+                                    gentil irmão, ambos solteiros.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Carrossel -->
+        </main>
+    </div>
+
+
+    <!-- Segunda Linha do Grid -->
+    <div class="row">
+        <div class="col-12 titulo">
+            <h2>Novas Séries</h2>
+        </div>
+    </div>
+    <!-- Primeiro Conjunto de Cards -->
+
+    <div class="row justify-content-center row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-4">
+        <div class="col">
+            <div class="card">
+                <a href="serie.html">
+                    <img src="assets/images/card/7.jpg" class="card-img-top" alt="Desventuras em Série">
+                    <div class="card-body">
+                        <h5 class="card-title">Desventuras em Série</h5>
+                        <p class="card-text">Três órfãos enfrentam o vilão Conde Olaf em uma série de
+                            desventuras
+                            enquanto tentam descobrir segredos familiares.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <a href="serie.html">
+                    <img src="assets/images/card/10.jpg" class="card-img-top" alt="The Good Doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">The Good Doctor</h5>
+                        <p class="card-text">Um médico autista com síndrome de Savant enfrenta desafios
+                            pessoais
+                            e
+                            profissionais em um hospital de prestígio.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <a href="serie.html">
+                    <img src="assets/images/card/3.jpg" class="card-img-top" alt="Anne with an E">
+                    <div class="card-body">
+                        <h5 class="card-title">Anne with an "E"</h5>
+                        <p class="card-text">Uma jovem órfã com uma imaginação vívida transforma a vida de
+                            uma
+                            pequena comunidade com sua determinação e coragem.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <a href="serie.html">
+                    <img src="assets/images/card/5.jpg" class="card-img-top" alt="Young Sheldon">
+                    <div class="card-body">
+                        <h5 class="card-title">Young Sheldon</h5>
+                        <p class="card-text">A infância de Sheldon Cooper, um prodígio da física, é
+                            retratada
+                            enquanto ele navega a vida familiar e escolar no Texas.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Primeiro Conjunto de Cards -->
+
+
+
+    <!-- Informações do Aluno -->
+    <section class="informacao">
+
+        <!-- Terceira linha do grid -->
+        <div class="row">
+            <div class="col-12 titulo">
+                <h2>Informações da Aluna</h2>
+            </div>
+            <div class="col-7 sobremim">
+                <h4 class="infodestaque">Sobre</h4>
+                <p>Sou Técnica em Mecânica pelo IFMG e durante o curso técnico, estudei a linguagem Python, o
+                    que me
+                    fez interessar pela área da computação e escolher cursar Engenharia de Software. Me
+                    interesso
+                    muito pela área de desenvolvimento web e pretendo um dia me tornar uma desenvolvedora
+                    full-stack.
+                </p>
+            </div>
+
+            <div class="col-5 minhasinfo">
+
+                <div class="autora">
+                    <h4 class="infodestaque">Autoria</h4>
+                    <div>
+                        <img class="foto" src="assets/images/perfil.jpg" width="120px" alt="Laura">
+
+                        <div class="dados">
+                            <p><b>Aluno:</b> Laura Campos Pontara Lopes</p>
+                            <p><b>Curso:</b> Engenharia de Software</p>
+                            <p><b>Turno:</b> Manhã</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="redessociais">
+
+                    <h4 class="redes" id="titlesocial">Redes Sociais:</h4>
+                    <a class="redes" href="https://www.instagram.com/laura_pontara?igsh=MTQ5dDNjNGJxYXY2"><img
+                            src="assets/images/social/instagram.png" alt="Instagram"></a>
+                    <a class="redes" href="https://www.facebook.com/lauracplopes"><img
+                            src="assets/images/social/facebook.png" alt="Facebook"></a>
+                    <a class="redes" href="https://github.com/LauraPontara"><img
+                            src="assets/images/social/github.png" alt="GitHub"></a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Informações do Aluno -->
+
+    <!-- Minhas Séries -->
+
+    <div class="row">
+        <div class="col-12">
+            <h2>Minhas Séries</h2>
+        </div>
+    </div>
+    <!-- Segundo Conjunto de Cards -->
+
+    <div class="row justify-content-center row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-4">
+        <div class="col">
+            <div class="card">
+                <a href="serie.html">
+                    <img src="assets/images/card/2.jpg" class="card-img-top" alt="Eu, a Patroa e as Crianças">
+                    <div class="card-body">
+                        <h5 class="card-title">Eu, a Patroa e as Crianças</h5>
+                        <p class="card-text">Um pai tenta lidar com sua família excêntrica, equilibrando
+                            comédia
+                            e
+                            desafios familiares.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <a href="serie.html">
+                    <img src="assets/images/card/4.jpg" class="card-img-top" alt="The Big Bang Theory">
+                    <div class="card-body">
+                        <h5 class="card-title">The Big Bang Theory</h5>
+                        <p class="card-text">Um grupo de cientistas nerds lida com suas vidas sociais,
+                            trazendo
+                            humor às interações cotidianas.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <a href="serie.html">
+                    <img src="assets/images/card/9.jpg" class="card-img-top"
+                        alt="Avatar: O Último Mestre do Ar">
+                    <div class="card-body">
+                        <h5 class="card-title">Avatar: O Último Mestre do Ar</h5>
+                        <p class="card-text">Aang, o último dobrador de ar, deve dominar os quatro elementos
+                            para
+                            restaurar a paz no mundo.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <a href="serie.html">
+                    <img src="assets/images/card/1.jpg" class="card-img-top" alt="Dr. House">
+                    <div class="card-body">
+                        <h5 class="card-title">Dr. House</h5>
+                        <p class="card-text">Um médico brilhante e antiético resolve casos médicos complexos
+                            usando
+                            métodos pouco convencionais.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <a href="serie.html">
+                    <img src="assets/images/card/6.jpg" class="card-img-top" alt="Friends">
+                    <div class="card-body">
+                        <h5 class="card-title">Friends</h5>
+                        <p class="card-text">Seis amigos vivem altos e baixos em Nova York, equilibrando
+                            relacionamentos, trabalho e momentos cômicos.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <a href="serie.html">
+                    <img src="assets/images/card/8.jpg" class="card-img-top" alt="Dois Homens e Meio">
+                    <div class="card-body">
+                        <h5 class="card-title">Dois Homens e Meio</h5>
+                        <p class="card-text">A vida de dois irmãos e um sobrinho é repleta de humor em meio
+                            a
+                            conflitos familiares e romances.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Minhas Séries -->
+
+    <!-- Conteúdo Principal -->
+</div>
+
+<!-- Rodapé -->
+<footer>
+    Copyright 2024 | Todos os direitos reservados MundoSériesbyLaura.com
+</footer>
+<!-- Rodapé -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+</html>

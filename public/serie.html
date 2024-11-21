@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Laura Pontara">
+    <title>Mundo Séries by Laura</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="assets/images/Logo.jpg" alt="Mundo Séries" width=100px
+                    class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler btn btn-secondary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="explorer.html">
+                            <h4 class="explorador">Explorador</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Cabeçalho -->
+
+    <!-- Conteúdo Principal -->
+    <main class="container-fluid detalhes">
+        <div class="row row-cols-1 g-4 serie">
+            <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                <div class="card h-100 banner">
+                    <img class="imagembanner" src="assets/images/cardbanner/the-big-bang-theory.jpg"
+                        alt="The Big Bang Theory">
+
+                    <div class="card-footer d-flex justify-content-center align-items-center">
+                        <button type="submit" class="btn btn-outline-success btnFavoritar">
+                            <img class="coracao" src="assets/images/cardbanner/gostar.png" alt="Coração"
+                                width="20%">Favoritar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-8 sinopse">
+                <h4 class="tituloserie">The Big Bang Theory (2007)</h4>
+                <h6>Sinopse:</h6>
+                <p>
+                    Na sitcom The Big Bang Theory, Leonard Hofstadter (Johnny Galecki) e Sheldon Cooper (Jim Parsons) são
+                    dois físicos brilhantes que trabalham no Instituto de Tecnologia da Califórnia e dividem um
+                    apartamento em Pasadena. Leonard vem de uma família cheia de prodígios e tem de lidar com a
+                    expectativa opressora de seus parentes. Por outro lado, Sheldon frequentou faculdade desde cedo, é o
+                    garoto de ouro do Texas com dois doutorados, mestrados e, mesmo assim, tem pouquíssimo traquejo
+                    social para se relacionar com outros seres humanos. Leonard e Sheldon passam a maior parte do tempo
+                    com os amigos Howard (Simon Helberg) e Raj (Kunal Nayyar), dois cientistas que também amam cinema,
+                    quadrinhos e videogames. A dinâmica do quarteto muda quando Penny (Kaley Cuoco), uma jovem atraente
+                    e aspirante a atriz, se muda para o apartamento da frente, encantando Leonard logo de cara. Apesar
+                    de ser muito diferente dos rapazes, aos poucos Penny se aproxima dos Geeks. 
+                </p>
+                <h6 class="genero">Gênero:</h6>
+                <p>Comédia</p>
+                <h6 class="criadores">Criado por:</h6>
+                <p> Bill Prady, Chuck Lorre</p>
+                <small class="text-light">
+                    <h6>Onde assistir</h6>
+                </small>
+                <div class="max">
+                    <a
+                        href="https://www.max.com/br/pt/shows/big-bang-theory/c8ea8e19-cae7-4683-9b62-cdbbed744784?utm_source=universal_search"><img
+                            class="empresa" src="assets/images/streaming/1.jpg" alt="Max" width="40px"></a>
+                </div>
+                <div class="prime">
+                    <a
+                        href="https://www.primevideo.com/dp/amzn1.dv.gti.328520af-8b5d-4ee0-a62f-a65fd1fed45e?autoplay=0&ref_=atv_cf_strg_wb"><img
+                            class="empresa" src="assets/images/streaming/2.jpg" alt="Prime Vídeo" width="40px"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row elenco">
+            <div class="col-12 tituloelenco">
+                <h2>Elenco</h2>
+            </div>
+            <div class="col-12 slides">
+                <div id="containerSlides">
+                    <div id="slider-container">
+                        <span onclick="slideRight()" class="btnSlide"></span>
+                        <div id="slider">
+                            <div class="card slide">
+                                <span>
+                                    <img src="assets/images/cardelenco/1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Jim Parsons</h5>
+                                        <p class="card-text">Interpreta Sheldon Cooper</p>
+                                    </div>
+                                </span>
+                            </div>
+
+                            <div class="card slide">
+                                <span>
+                                    <img src="assets/images/cardelenco/2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Johnny Galecki</h5>
+                                        <p class="card-text">Interpreta Leonard Hofstadter</p>
+                                    </div>
+                                </span>
+                            </div>
+
+                            <div class="card slide">
+                                <span>
+                                    <img src="assets/images/cardelenco/2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Johnny Galecki</h5>
+                                        <p class="card-text">Interpreta Leonard Hofstadter</p>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="card slide">
+                                <span>
+                                    <img src="assets/images/cardelenco/2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Johnny Galecki</h5>
+                                        <p class="card-text">Interpreta Leonard Hofstadter</p>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="card slide">
+                                <span>
+                                    <img src="assets/images/cardelenco/2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Johnny Galecki</h5>
+                                        <p class="card-text">Interpreta Leonard Hofstadter</p>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="card slide">
+                                <span>
+                                    <img src="assets/images/cardelenco/2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Johnny Galecki</h5>
+                                        <p class="card-text">Interpreta Leonard Hofstadter</p>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="card slide">
+                                <span>
+                                    <img src="assets/images/cardelenco/2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Johnny Galecki</h5>
+                                        <p class="card-text">Interpreta Leonard Hofstadter</p>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <span onclick="slideLeft()" class="btnSlide"></span>
+                    </div>
+                </div>
+                <!-- <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="cards-wrapper">
+                                <div class="card personagem">
+                                    <img src="assets/images/cardelenco/1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Jim Parsons</h5>
+                                        <p class="card-text">Interpreta Sheldon Cooper</p>
+
+                                    </div>
+                                </div>
+                                <div class="card personagem">
+                                    <img src="assets/images/cardelenco/2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Johnny Galecki</h5>
+                                        <p class="card-text">Interpreta Leonard Hofstadter</p>
+
+                                    </div>
+                                </div>
+                                <div class="card personagem">
+                                    <img src="assets/images/cardelenco/3.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Simon Helberg</h5>
+                                        <p class="card-text">Interpreta Howard Wolowitz</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="cards-wrapper">
+                                <div class="card personagem">
+                                    <img src="assets/images/cardelenco/4.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Kaley Cuoco</h5>
+                                        <p class="card-text">Interpreta Penny</p>
+
+                                    </div>
+                                </div>
+                                <div class="card personagem">
+                                    <img src="assets/images/cardelenco/5.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Kunal Nayyar</h5>
+                                        <p class="card-text">Interpreta Rajesh "Raj" Koothrappali</p>
+
+                                    </div>
+                                </div>
+                                <div class="card personagem">
+                                    <img src="assets/images/cardelenco/6.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mayim Bialik</h5>
+                                        <p class="card-text">Interpreta Amy Farrah Fowler</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="cards-wrapper">
+                                <div class="card personagem">
+                                    <img src="assets/images/cardelenco/7.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Melissa Rauch</h5>
+                                        <p class="card-text">Interpreta Bernadette Rostenkowski</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="row temporadas">
+            <div class="col-12 titulotemp">
+                <h2>Temporadas e Episódios</h2>
+            </div>
+            <div id="cards-container" class=" col-12 cards grid">
+                <div class="cardTemp">
+                    <div class="image-box">
+                        <img src="assets/images/1.png">
+                    </div>
+                    <div class="card-content">
+                        <h1 class="card-heading">heading one</h1>
+                        <h4>Fantasia</h4>
+                        <p class="card-text ano">2001</p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Rerum, deserunt sed. Earum, soluta officiis? Laborum, architecto?
+                            Tempora autem, est veniam sit facere ea mollitia.
+                            Consequatur dolore, doloremque suscipit necessitatibus nam sint eos.
+                        </p>
+                    </div>
+                </div>
+                <div class="cardTemp">
+                    <div class="image-box">
+                        <img src="assets/images/2.png">
+                    </div>
+                    <div class="card-content">
+                        <h1 class="card-heading">heading two</h1>
+                        <h4>Aventura</h4>
+                        <p class="card-text ano">2001</p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Rerum, deserunt sed. Earum, soluta officiis? Laborum, architecto?
+                            Tempora autem, est veniam sit facere ea mollitia.
+                            Consequatur dolore, doloremque suscipit necessitatibus nam sint eos.
+                        </p>
+                    </div>
+                </div>
+                <div class="cardTemp">
+                    <div class="image-box">
+                        <img src="assets/images/3.png">
+                    </div>
+                    <div class="card-content">
+                        <h1 class="card-heading">heading three</h1>
+                        <h4>Romance</h4>
+                        <p class="card-text ano">2008</p>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Rerum, deserunt sed. Earum, soluta officiis? Laborum, architecto?
+                            Tempora autem, est veniam sit facere ea mollitia.
+                            Consequatur dolore, doloremque suscipit necessitatibus nam sint eos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Conteúdo Principal -->
+
+
+
+    <!-- Rodapé -->
+    <footer>
+        Copyright 2024 | Todos os direitos reservados MundoSériesbyLaura.com
+    </footer>
+    <!-- Rodapé -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+    <script src="assets/script/carrossel.js"></script>
+
+</body>
+
+</html>
